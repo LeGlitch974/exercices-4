@@ -1,0 +1,51 @@
+/* Partie commune à toutes les pages */
+
+html {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+body {
+    padding: 0;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading-one {
+    text-align: center;
+    color: #8844cc;
+    padding-top: 20px;
+}
+
+.section {
+    padding: 20px;
+    margin: 0 20px 20px 20px ;
+    border: 2px solid #8844cc;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__link {
+    display: block;
+    width:max-content;
+    background-color: #8844cc;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer__link:hover {
+    color: yellow;
+}
+
+.footer small {
+    display: none;
+}

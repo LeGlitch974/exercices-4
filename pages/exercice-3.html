@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 3 - Le formulaire de contact</title>
+    <meta name="description" content="Test pratique sur la construction d'un formulaire de contact">
+    <meta name="robot" content="index, nofollow">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/exercice-3.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="heading-one">Exercice 3 : Formulaire de contact</h1>
+    </header>
+    <main class="project">
+        <form action="#" method="post" class="project__form">
+            <fieldset class="project__form-area area-one">
+
+                <legend class="project__form-legend">Informations personnelles</legend>
+
+                <div>
+                    <label for="mademoiselle" class="project__form-area-label-surname">Mlle</label>
+                    <input type="radio" name="surname" id="mademoiselle" checked>
+                    <label for="madame" class="project__form-area-label-surname">Mme</label>
+                    <input type="radio" name="surname" id="madame">
+                    <label for="monsieur" class="project__form-area-label-surname">M</label>
+                    <input type="radio" name="surname" id="monsieur">
+                </div>
+
+                <div >
+                    <label for="prenom" class="project__form-area-label-infos firstname">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder=" votre prénom"
+                        class="project__form-area-input-infos">
+                </div>
+                <label for="nom" class="project__form-area-label-infos">Nom *</label>
+                <input type="text" name="nom" id="nom" placeholder=" votre nom" required
+                    class="project__form-area-input-infos lastname"> <br>
+                <label for="mail" class="project__form-area-label-infos">Email *</label>
+                <input type="email" name="mail" id="mail" placeholder=" votre adresse mail" required
+                    class="project__form-area-input-infos email"> <br>
+            </fieldset>
+            <fieldset class="project__form-area only area-two">
+                <legend class="project__form-legend">Votre message</legend>
+                <label for="destinataire" class="project__form-area-two-label">Destinataire</label>
+                <select name="destinataire" id="destinataire" class="project__form-area-two-input destination">
+                    <option value="general">Général</option>
+                    <option value="comptabilité">comptabilité</option>
+                    <option value="sav">SAV</option>
+                    <option value="service-client">Service client</option>
+                </select> <br>
+                <label for="sujet" class="project__form-area-two-label">Sujet *</label>
+                <input type="text" name="sujet" id="sujet" placeholder=" L'objet de votre message" required
+                    class="project__form-area-two-input sujet"> <br>
+                <label for="message" class="project__form-area-two-label message-label">Message *</label>
+                <textarea name="message" placeholder="Saisissez votre message ici" cols="60" rows="10" required
+                    id="message" class="project__form-area-two-input message-area"></textarea>
+                <label class="project__form-area-two-label download-message">Ajouter une <br> pièce jointe</label>
+                <input type="file" name="file" id="file" class="project__form-area-two-input download">
+            </fieldset>
+            <fieldset class="project__form-area area-three">
+                <legend class="project__form-legend">Options</legend>
+                <input type="checkbox" name="envoi-informations" id="copie-message"
+                    class="project__form-area-three-input copy-message">
+                <label for="copie-message" class="project__form-area-three-label">Recevoir une copie du message</label>
+                <br>
+                <input type="checkbox" name="envoi-informations" id="recevoir-offres"
+                    class="project__form-area-three-input">
+                <label for="recevoir-offres" class="project__form-area-three-label">Recevoir nos offres</label>
+                <hr class="line-separator-area-three">
+                <p>
+                    Etre contacté par un conseiller
+                    <input type="radio" name="moyen-de-contact" id="non">
+                    <label for="non">Non</label>
+                    <input type="radio" name="moyen-de-contact" id="telephone">
+                    <label for="telephone">Par téléphone</label>
+                    <input type="radio" name="moyen-de-contact" id="email" checked>
+                    <label for="mail">Par Email</label>
+                </p>
+            </fieldset>
+            <p class="required-paragraph">* <span>: champs obligatoire</span></p>
+            <input type="submit" value="Valider" class="btn btn-validate">
+            <input type="reset" value="Effacer" class="btn btn-reset">
+            <hr class="line-separator-button">
+        </form>
+    </main>
+    <footer class="footer">
+        <p><a href="../index.html" class="footer__link">Retour Accueil</a></p>
+        <small>© 2024 - Tous droits réservés</small>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2 - Les tableaux</title>
+    <meta name="description" content="Test pratique sur la construction des tableaux.">
+    <meta name="robot" content="index, nofollow">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/exercice-2.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading-one">Exercice 2 : Tableaux</h1>
+    </header>
+    <main class="project">
+            <table class="project__table-one">
+                <caption class="project__table-one-legend">Suivi des mouvements de caisse</caption>
+                <thead class="project__table-one-header">
+                    <tr class="project__table-one-row dark">
+                        <th class="project__table-one-header-data more-size">Date</th>
+                        <th class="project__table-one-header-data">Débit</th>
+                        <th class="project__table-one-header-data">Crédit</th>
+                        <th class="project__table-one-header-data">Balance</th>
+                    </tr>
+                </thead>
+                <tbody class="project__table-one-body">
+                    <tr class="project__table-one-row white">
+                        <td class="project__table-one-data more-size">01/02/2024</td>
+                        <td class="project__table-one-data"></td>
+                        <td class="project__table-one-data">250,00</td>
+                        <td class="project__table-one-data">+250,00</td>
+                    </tr>
+                    <tr class="project__table-one-row gray">
+                        <td class="project__table-one-data more-size">02/02/2024</td>
+                        <td class="project__table-one-data">100,00</td>
+                        <td class="project__table-one-data"></td>
+                        <td class="project__table-one-data">+150,00</td>
+                    </tr>
+                    <tr class="project__table-one-row white">
+                        <td class="project__table-one-data more-size">03/03/2024</td>
+                        <td class="project__table-one-data">50,00</td>
+                        <td class="project__table-one-data">150,00</td>
+                        <td class="project__table-one-data">+250,00</td>
+                    </tr>
+                    <tr class="project__table-one-row gray">
+                        <td class="project__table-one-data more-size">04/03/2024</td>
+                        <td class="project__table-one-data"></td>
+                        <td class="project__table-one-data"></td>
+                        <td class="project__table-one-data">+250,00</td>
+                    </tr>
+                    <tr class="project__table-one-row white">
+                        <td class="project__table-one-data more-size">05/03/2024</td>
+                        <td class="project__table-one-data">150,00</td>
+                        <td class="project__table-one-data"></td>
+                        <td class="project__table-one-data">+250,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="project__table-one-row dark">
+                        <th class="project__table-one-header-data more-size">Totaux</th>
+                        <th class="project__table-one-header-data">150,00</th>
+                        <th class="project__table-one-header-data">400,00</th>
+                        <th class="project__table-one-header-data">+250,00</th>
+                    </tr>
+                </tfoot>
+            </table>
+        <hr>
+            <table class="project__table-two">
+                <thead>
+                    <tr class="project__table-two-row">
+                        <th rowspan="2" class="project__table-two-header-data big">Jour</th>
+                        <th colspan="2" class="project__table-two-header-data middle espacially">Matin</th>
+                        <th colspan="2" class="project__table-two-header-data middle">Après-midi</th>
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <th class="project__table-two-header-data hour espacially">9h00</th>
+                        <th class="project__table-two-header-data hour">12h00</th>
+                        <th class="project__table-two-header-data hour">14h00</th>
+                        <th class="project__table-two-header-data hour">18h00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow-light">Lundi</td>
+                        <td colspan="2" class="project__table-two-data blue">Fermé</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow">Mardi</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                        
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow-light">Mercredi</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow">Jeudi</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow-light">Vendredi</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow">Samedi</td>
+                        <td colspan="2" class="project__table-two-data blue-light">Ouvert</td>
+                        <td colspan="2" class="project__table-two-data blue">Fermé</td>
+                    </tr>
+                    <tr class="project__table-two-row">
+                        <td class="project__table-two-data yellow-light">Dimanche</td>
+                        <td colspan="4" class="project__table-two-data blue">Fermé</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th colspan="5" class="project__table-two-header-data yellow">Horaires d'ouverture</th>
+                </tfoot>
+            </table>
+        <hr>
+    </main>
+    <footer class="footer"> 
+        <p><a href="../index.html" class="footer__link">Retour Accueil</a></p>
+        <small>© 2024 - Tous droits réservés</small> 
+    </footer>
+</body>
+</html>

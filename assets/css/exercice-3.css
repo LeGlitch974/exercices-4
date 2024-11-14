@@ -1,0 +1,187 @@
+/* Début du formulaire */
+
+/* partie informations */
+
+.project__form {
+    width: 40%;
+    border: 2px solid #8844cc;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: auto;
+    box-shadow: 2px 2px 5px #8844cc;
+}
+
+.project__form-area {
+    width: 93%;
+    margin-bottom: 10px;
+    background-color: rgba(136, 68, 204, 0.2);
+    border: 2px solid #8844cc;
+    border-radius: 5px;
+}
+
+.project__form-area-label-surname {
+    color: #8844cc;
+}
+
+input[type="radio"] {
+    accent-color: #8844cc;
+}
+
+.only {
+    padding: 0 12px;
+}
+
+.project__form-legend {
+    color: #8844cc;
+    font-weight: bold;
+}
+
+.project__form-area-label-infos, .message {
+    margin-right: 10px;
+    color: #8844cc;
+}
+
+.project__form-area-input-infos {
+    margin-left:40px;
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #8844cc;
+    border-radius: 5px;
+    color: #8844cc;
+
+}
+
+.firstname {
+    margin-top: 10px;
+}
+
+.lastname {
+    margin-left: 50px;
+}
+
+.email {
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+
+/* Partie message */
+
+.project__form-area-two-input {
+    margin-bottom: 10px;
+
+}
+
+.project__form-area-two-label {
+    color: #8844cc;
+}
+
+.destination {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #e2e1e2;
+    border: 1px solid #8844cc;
+}
+
+.sujet {
+    margin-left: 70px;
+    width: 285px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #8844cc;
+}
+
+.message-label {
+    position: relative;
+    bottom: 100px;
+}
+
+.message-area {
+    margin-left: 40px;
+    width: 278px;
+    border-radius: 5px;
+    border: 1px solid #8844cc;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 50%;
+}
+
+.download {
+    border: 1px solid black;
+    margin-left: 35px;
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    border: 1px solid #8844cc;
+    border-radius: 5px;
+    width: 270px;
+}
+
+/* Partie optionnelle */
+
+.project__form-area-three-label {
+    color: #8844cc;
+}
+
+.copy-message {
+    margin-top: 15px;
+} 
+
+input[type="checkbox"] {
+    accent-color: #8844cc;
+}
+
+.line-separator-area-three {
+    width: 70%;
+    margin-top: 20px;
+    border-color: #8844cc;
+    border-width: 1px;
+}
+
+.area-three p {
+    font-size: 0.8rem;
+    color: #8844cc;
+    margin-left: 10px;
+}
+
+
+/* Partie boutons */
+
+.required-paragraph span {
+    font-size: 0.5rem;
+}
+
+.line-separator-button  {
+    display: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #8844cc;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn-validate {
+    margin-left: 150px;
+    margin-right: 5px;
+}
+
+/* Fin partie bouton */
+
+/* Fin du formulaire */

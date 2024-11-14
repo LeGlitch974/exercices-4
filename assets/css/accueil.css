@@ -1,0 +1,138 @@
+/* Début de la Partie en-tête */
+
+.header {
+    width: 100%;
+    height: 62px;
+    background-color: #8844cc;
+}
+
+.menu {
+    width: inherit;
+    height: inherit;
+}
+
+.menu__list {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__item {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: yellow;
+}
+
+/* Fin de la partie en-tête */
+
+/* Ligne de séparation */
+
+hr {
+    display: none;
+}
+
+/* Fin de la ligne de séparation */
+
+/* Début de la partie principale */
+
+.project {
+    width: 100%;
+}
+
+.project__heading-one {
+    text-align: center;
+    color: #8844cc;
+    font-size: 1.65rem;
+}
+
+/* Début de la partie section une */
+
+.project__heading-two {
+    color: #8844cc;
+    margin-top: -5px;
+}
+
+.project__list-one {
+    list-style: url(../img/fleche-droite.png);
+    line-height: 30px;
+}
+
+.project__list-one em {
+    font-style: normal;
+    color: #08c3ff;
+    font-weight: bold;
+}
+
+.project__list-two {
+    list-style: square;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.project__citation {
+    display: none;
+}
+
+/* Fin de la partie section une */
+
+/* Début de la partie section deux */
+
+.section__two {
+    margin-bottom: 40px; 
+}
+
+.project__heading-three {
+    color: #08c3ff;
+}
+
+.project__paragraph small {
+    display: none;
+}
+
+.project__link {
+    background-color: #8844cc;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.project__link:hover {
+    color: yellow;
+}
+
+/* Fin de la partie section deux */
+
+/* Fin de la partie principale */
+
+/* Début du pied de page */
+
+.footer {
+    width: 100%;
+    height: 62px;
+    background-color: #8844cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer small {
+    display: block;
+    height: 20px;
+    color: white;
+}
+
+/* Fin du pied de page */

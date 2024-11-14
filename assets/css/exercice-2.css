@@ -1,0 +1,107 @@
+/* Début de la partie principale */
+
+.project {
+    margin-top: -10px;
+}
+
+/* Début du tableau 1 */
+
+.project__table-one {
+    margin: auto;
+}
+
+.project__table-one, .project__table-one-row, .project__table-one-header-data, .project__table-one-data  {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.project__table-one-header-data, .project__table-one-data {
+    padding: 5px 50px;
+}
+
+.more-size {
+    padding: 0 70px;
+}
+
+.dark {
+    background-color: #ab9c9c;
+}
+
+.white {
+    background-color: #ffff;
+}
+
+.gray {
+    background-color: #d8cccc;
+}
+
+.project__table-one-legend {
+    caption-side: bottom;
+}
+
+/* Fin du tableau 1 */
+
+/* Début ligne de séparation */
+
+hr {
+    display: none;
+}
+
+/* Fin ligne de séparation */
+
+/* Début du deuxième tableau */
+
+.project__table-two {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.project__table-two, .project__table-two-row, .project__table-two-header-data, .project__table-two-data {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.big {
+    padding: 30px 50px;
+}
+
+.middle {
+    padding: 0 60px;
+}
+
+.hour {
+    padding: 0 20px;
+}
+
+.espacially {
+    padding: 0 30px;
+}
+
+.project__table-two-data {
+    padding: 8px 0;
+    text-align: center;
+}
+
+.project__table-two-header-data, .yellow {
+    background-color: #fffa7c;
+}
+
+.yellow-light {
+    background-color: #b9ffd6;
+}
+
+.blue {
+    background-color: #8844cc;
+    color: white;
+}
+
+.blue-light {
+    background-color: #08c3ff;
+    color: white;
+}
+
+/* Fin du deuxième tableau */
+
+/* Fin de la partie principale */
+

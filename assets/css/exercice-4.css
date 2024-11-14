@@ -1,0 +1,55 @@
+/*  Début de ligne de séparation */
+
+hr {
+    display: none;
+}
+
+/* Fin de ligne de séparation */
+
+/* Début de la première partie image */
+
+.image-project-heading-two {
+    color: #8844cc;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.container img:nth-of-type(1):hover {
+    visibility: hidden;
+}
+
+/* Fin de la première partie image */
+
+/* Début de la deuxième partie image */
+
+.container-two {
+    display: grid;
+    grid-template-columns: 375px 375px 375px;
+    grid-template-rows: 350px 350px;
+    row-gap: 20px;
+    justify-items: center;
+}
+
+.container-two img {
+    width: 350px;
+}
+
+.second-element {
+    height: 720px;
+}
+
+.last-element {
+    grid-column: 3 / 3;
+}
+
+/* Fin de la deuxième partie image */
